@@ -6,14 +6,9 @@
 - [To do](#to-do)  
 ## About
 **ePlayer** is an easy to use audio player library which can be used to add custom full-fledged audio players to websites.  
-It supports all essential features such as:
-- Playlists
-- Play / Pause
-- Repeat
-- Shuffle
-- Previous song
-- Next song
-- Volume control
+### Features:
+- Supports playlists.
+- Controls such as Play / Pause, Repeat, Shuffle, Previous audio, Next audio, Volume control.
 - Ability to add more than one player to the same page.
 
 [Click here](http://eliezer.co.in/ePlayer) to open a demo page which uses this audio player.  
@@ -109,5 +104,5 @@ _**Note:** The player includes only the theme `darkTheme` by default currently._
   ```
 
 ## To do
-- Eliminate the need to provide the html code of the player manually. Instead automatically inject the code using JavaScript.
+- Eliminate the need to add html code of the player manually. Instead automatically inject the code using JavaScript.
 - Make it easier to add new themes to the player.
