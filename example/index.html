@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ePlayer demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link type='text/css' rel='stylesheet' href='app.css'>
+    <link type='text/css' rel='stylesheet' href='../darktheme.css'>
+    <script src='../eSlider.js'></script>
+    <script src='../ePlayer.js'></script>
+    <script src='../darkTheme.js'></script>
+    <style>
+        #p1,
+        #p2 {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>ePlayer Demo</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu metus ut lorem pharetra efficitur.
+            Pellentesque a egestas est, ac laoreet libero. In imperdiet hendrerit tempus. Nulla suscipit dictum
+            venenatis. Suspendisse facilisis, tortor vitae mollis convallis, nisl lectus auctor tortor, a maximus libero
+            elit interdum lacus. Etiam fringilla dolor eu tristique placerat. </p>
+
+        <div id='p1' class='ep-dt-container'>
+            <div data-ep-role='controls' class='ep-dt-controls'>
+                <div data-ep-role='fastRewind' class='ep-dt-controlIcon ep-dt-fastRewind'></div>
+                <div data-ep-role='play' class='ep-dt-controlIcon ep-dt-play'></div>
+                <div data-ep-role='fastForward' class='ep-dt-controlIcon ep-dt-fastForward'></div>
+                <p data-ep-role='curTime' class='ep-dt-curTime'>00:00</p>
+                <div data-ep-role='seekSlider' class='ep-dt-seekSlider'>
+                    <div data-ep-role='seekComp' class='ep-dt-seekComp'></div>
+                    <div data-ep-role='seekTrack' class='ep-dt-seekTrack'></div>
+                </div>
+                <p data-ep-role=totTime class='ep-dt-totTime'>00:00</p>
+                <div data-ep-role='repeat' class='ep-dt-controlIcon ep-dt-repeatOff'></div>
+                <div data-ep-role='shuffle' class='ep-dt-controlIcon ep-dt-shuffleOff'></div>
+                <div data-ep-role='volume' class='ep-dt-controlIcon ep-dt-volumeFull'></div>
+                <div data-ep-role='volSlider' class='ep-dt-volSlider'>
+                    <div data-ep-role='volComp' class='ep-dt-volComp'></div>
+                    <div data-ep-role='volTrack' class='ep-dt-volTrack'></div>
+                </div>
+            </div>
+            <ol data-ep-role='playlist' class='ep-dt-playlist'></ol>
+        </div>
+
+        <p> Nulla facilisi. Vivamus eu bibendum lectus. Mauris a diam sagittis, condimentum nibh sit amet, rhoncus
+            lorem. Sed eget dictum erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. Vivamus ultricies magna quis lacus egestas congue. Donec tempus libero at tincidunt eleifend.
+            Donec nisl nisl, pharetra nec libero dictum, posuere tristique risus. </p>
+
+        <div id='p2' class='ep-dt-container'>
+            <div data-ep-role='controls' class='ep-dt-controls'>
+                <div data-ep-role='fastRewind' class='ep-dt-controlIcon ep-dt-fastRewind'></div>
+                <div data-ep-role='play' class='ep-dt-controlIcon ep-dt-play'></div>
+                <div data-ep-role='fastForward' class='ep-dt-controlIcon ep-dt-fastForward'></div>
+                <p data-ep-role='curTime' class='ep-dt-curTime'>00:00</p>
+                <div data-ep-role='seekSlider' class='ep-dt-seekSlider'>
+                    <div data-ep-role='seekComp' class='ep-dt-seekComp'></div>
+                    <div data-ep-role='seekTrack' class='ep-dt-seekTrack'></div>
+                </div>
+                <p data-ep-role=totTime class='ep-dt-totTime'>00:00</p>
+                <div data-ep-role='repeat' class='ep-dt-controlIcon ep-dt-repeatOff'></div>
+                <div data-ep-role='shuffle' class='ep-dt-controlIcon ep-dt-shuffleOff'></div>
+                <div data-ep-role='volume' class='ep-dt-controlIcon ep-dt-volumeFull'></div>
+                <div data-ep-role='volSlider' class='ep-dt-volSlider'>
+                    <div data-ep-role='volComp' class='ep-dt-volComp'></div>
+                    <div data-ep-role='volTrack' class='ep-dt-volTrack'></div>
+                </div>
+            </div>
+            <ol data-ep-role='playlist' class='ep-dt-playlist'></ol>
+        </div>
+
+        <p> Ut dignissim blandit tempus. In hac habitasse platea dictumst. Praesent a ipsum a nunc mattis imperdiet.
+            Nullam venenatis ligula in facilisis aliquam. Vestibulum eu blandit nulla, non lacinia nunc. Duis
+            pellentesque semper eros. Proin consectetur nulla mi, pharetra mattis elit condimentum eget. In euismod
+            metus ex, in iaculis dui lobortis ut. Suspendisse sit amet feugiat tellus. Integer vitae lacus et ligula
+            sollicitudin pretium. Cras et lobortis tellus. Proin semper mauris a risus ultricies, a faucibus diam
+            elementum. Nullam a purus aliquam, mollis mi at, feugiat nisi. Phasellus sagittis ipsum vel aliquam
+            sollicitudin. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </div>
+    <script src='app.js'></script>
+</body>
+
+</html>
